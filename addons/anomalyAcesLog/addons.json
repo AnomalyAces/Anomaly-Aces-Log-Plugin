@@ -1,0 +1,18 @@
+[
+  {
+    "owner": "anomalyaces",
+    "repo": "Anomaly-Aces-Log-Plugin",
+    "isRelease": false,
+    "version": "1.0",
+    "branch": "master",
+    "dependencies": [
+      {
+        "owner": "russmatney",
+        "repo": "log.gd",
+        "isRelease": true,
+        "version": "1.0",
+        "branch": "master"
+      }
+    ]
+  }
+]
