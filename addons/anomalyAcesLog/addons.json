@@ -5,13 +5,15 @@
     "isRelease": false,
     "version": "1.0",
     "branch": "master",
+	"subfolder": "addons/anomalyAcesLog/",
     "dependencies": [
       {
         "owner": "russmatney",
         "repo": "log.gd",
         "isRelease": true,
         "version": "1.0",
-        "branch": "master"
+        "branch": "master",
+		"subfolder": "addons/log/"
       }
     ]
   }
