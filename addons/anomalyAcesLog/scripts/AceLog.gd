@@ -1,5 +1,6 @@
 @tool
-extends Node
+extends Node 
+
 
 enum LOG_LEVEL {ERROR,INFO,WARN,DEBUG,NONE}
 const LOG_LEVEL_NAMES: Array[String] = ["ERROR","INFO","WARN","DEBUG","NONE"]
