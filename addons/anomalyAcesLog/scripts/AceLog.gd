@@ -61,8 +61,11 @@ var _LOG_LEVEL_DICT: Dictionary[String, AceLogLevelInfo] = {
 
 
 func _ready() -> void:
-	if Engine.is_editor_hint():
-		call_deferred("_initalize_settings")
+	# if Engine.is_editor_hint():
+	# 	call_deferred("_initalize_settings")
+	# else:
+	# 	printLog(["AceLog is only intended to be used within the editor. Not inititalizing settings"], LOG_LEVEL.INFO)
+	call_deferred("_initalize_settings")
 
 func _process(delta: float) -> void:
 	if settings != null:
